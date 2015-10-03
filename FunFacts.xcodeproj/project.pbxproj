@@ -13,6 +13,8 @@
 		570B28841BA36FED00C3408C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570B28831BA36FED00C3408C /* Images.xcassets */; };
 		570B28871BA36FEE00C3408C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570B28851BA36FEE00C3408C /* LaunchScreen.xib */; };
 		570B28931BA36FEE00C3408C /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B28921BA36FEE00C3408C /* FunFactsTests.swift */; };
+		57B884B41BA6C7280085ACE6 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B884B31BA6C7280085ACE6 /* FactBook.swift */; };
+		57B884B61BA7498A0085ACE6 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B884B51BA7498A0085ACE6 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		570B288C1BA36FEE00C3408C /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		570B28911BA36FEE00C3408C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		570B28921BA36FEE00C3408C /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		57B884B31BA6C7280085ACE6 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		57B884B51BA7498A0085ACE6 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				570B287C1BA36FED00C3408C /* AppDelegate.swift */,
+				57B884B31BA6C7280085ACE6 /* FactBook.swift */,
 				570B287E1BA36FED00C3408C /* ViewController.swift */,
+				57B884B51BA7498A0085ACE6 /* ColorWheel.swift */,
 				570B28801BA36FED00C3408C /* Main.storyboard */,
 				570B28831BA36FED00C3408C /* Images.xcassets */,
 				570B28851BA36FEE00C3408C /* LaunchScreen.xib */,
@@ -156,6 +162,7 @@
 		570B286F1BA36FED00C3408C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Naman Priyadarshi";
 				TargetAttributes = {
@@ -212,8 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B884B41BA6C7280085ACE6 /* FactBook.swift in Sources */,
 				570B287F1BA36FED00C3408C /* ViewController.swift in Sources */,
 				570B287D1BA36FED00C3408C /* AppDelegate.swift in Sources */,
+				57B884B61BA7498A0085ACE6 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +418,7 @@
 				570B28981BA36FEE00C3408C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		570B28991BA36FEE00C3408C /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +427,7 @@
 				570B289B1BA36FEE00C3408C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
